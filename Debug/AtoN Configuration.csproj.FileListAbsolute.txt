@@ -1,0 +1,13 @@
+C:\Users\darkd\source\repos\AtoN Configuration\AtoN Configuration\bin\Debug\AtoN Configuration.exe.config
+C:\Users\darkd\source\repos\AtoN Configuration\AtoN Configuration\bin\Debug\AtoN Configuration.exe
+C:\Users\darkd\source\repos\AtoN Configuration\AtoN Configuration\bin\Debug\AtoN Configuration.pdb
+C:\Users\darkd\source\repos\AtoN Configuration\AtoN Configuration\obj\Debug\AtoN Configuration.csprojResolveAssemblyReference.cache
+C:\Users\darkd\source\repos\AtoN Configuration\AtoN Configuration\obj\Debug\AtoN_Configuration.Properties.Resources.resources
+C:\Users\darkd\source\repos\AtoN Configuration\AtoN Configuration\obj\Debug\AtoN Configuration.csproj.GenerateResource.cache
+C:\Users\darkd\source\repos\AtoN Configuration\AtoN Configuration\obj\Debug\AtoN Configuration.csproj.CoreCompileInputs.cache
+C:\Users\darkd\source\repos\AtoN Configuration\AtoN Configuration\obj\Debug\AtoN Configuration.exe
+C:\Users\darkd\source\repos\AtoN Configuration\AtoN Configuration\obj\Debug\AtoN Configuration.pdb
+C:\Users\darkd\source\repos\AtoN Configuration\AtoN Configuration\obj\Debug\AtoN_Configuration.Main.resources
+C:\Users\darkd\source\repos\AtoN Configuration\AtoN Configuration\obj\Debug\AtoN_Configuration.form_general_param.resources
+C:\Users\darkd\source\repos\AtoN Configuration\AtoN Configuration\obj\Debug\AtoN_Configuration.form_kannad_param.resources
+C:\Users\darkd\source\repos\AtoN Configuration\AtoN Configuration\obj\Debug\AtoN_Configuration.form_real_AtoN.resources
