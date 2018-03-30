@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{085CEF5C-BC98-4350-92E1-0F6C3E4D8FA2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>AtoN_Configuration</RootNamespace>
+    <AssemblyName>AtoN Configuration</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AtoN_config.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AtoN_config.Designer.cs">
+      <DependentUpon>AtoN_config.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_AtoN_VorS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_AtoN_VorS.Designer.cs">
+      <DependentUpon>form_AtoN_VorS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_bootloader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_bootloader.Designer.cs">
+      <DependentUpon>form_bootloader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_general_param.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_general_param.Designer.cs">
+      <DependentUpon>form_general_param.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_kannad_param.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_kannad_param.Designer.cs">
+      <DependentUpon>form_kannad_param.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_ongGoing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_ongGoing.Designer.cs">
+      <DependentUpon>form_ongGoing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_port.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_port.Designer.cs">
+      <DependentUpon>form_port.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_real_AtoN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_real_AtoN.Designer.cs">
+      <DependentUpon>form_real_AtoN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_repeater.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_repeater.Designer.cs">
+      <DependentUpon>form_repeater.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_turn_on_time.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_turn_on_time.Designer.cs">
+      <DependentUpon>form_turn_on_time.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AtoN_config.resx">
+      <DependentUpon>AtoN_config.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_AtoN_VorS.resx">
+      <DependentUpon>form_AtoN_VorS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_bootloader.resx">
+      <DependentUpon>form_bootloader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_general_param.resx">
+      <DependentUpon>form_general_param.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_kannad_param.resx">
+      <DependentUpon>form_kannad_param.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_ongGoing.resx">
+      <DependentUpon>form_ongGoing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_port.resx">
+      <DependentUpon>form_port.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_real_AtoN.resx">
+      <DependentUpon>form_real_AtoN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_repeater.resx">
+      <DependentUpon>form_repeater.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_turn_on_time.resx">
+      <DependentUpon>form_turn_on_time.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

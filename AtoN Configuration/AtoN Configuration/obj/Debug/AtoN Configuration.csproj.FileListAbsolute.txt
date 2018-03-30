@@ -1,0 +1,20 @@
+E:\Loi\AtoN Configuration\AtoN Configuration\bin\Debug\AtoN Configuration.exe.config
+E:\Loi\AtoN Configuration\AtoN Configuration\bin\Debug\AtoN Configuration.exe
+E:\Loi\AtoN Configuration\AtoN Configuration\bin\Debug\AtoN Configuration.pdb
+E:\Loi\AtoN Configuration\AtoN Configuration\obj\Debug\AtoN Configuration.csprojResolveAssemblyReference.cache
+E:\Loi\AtoN Configuration\AtoN Configuration\obj\Debug\AtoN_Configuration.form_AtoN_VorS.resources
+E:\Loi\AtoN Configuration\AtoN Configuration\obj\Debug\AtoN_Configuration.form_bootloader.resources
+E:\Loi\AtoN Configuration\AtoN Configuration\obj\Debug\AtoN_Configuration.form_general_param.resources
+E:\Loi\AtoN Configuration\AtoN Configuration\obj\Debug\AtoN_Configuration.form_kannad_param.resources
+E:\Loi\AtoN Configuration\AtoN Configuration\obj\Debug\AtoN_Configuration.form_ongGoing.resources
+E:\Loi\AtoN Configuration\AtoN Configuration\obj\Debug\AtoN_Configuration.form_port.resources
+E:\Loi\AtoN Configuration\AtoN Configuration\obj\Debug\AtoN_Configuration.form_real_AtoN.resources
+E:\Loi\AtoN Configuration\AtoN Configuration\obj\Debug\AtoN_Configuration.form_repeater.resources
+E:\Loi\AtoN Configuration\AtoN Configuration\obj\Debug\AtoN_Configuration.form_turn_on_time.resources
+E:\Loi\AtoN Configuration\AtoN Configuration\obj\Debug\AtoN_Configuration.Properties.Resources.resources
+E:\Loi\AtoN Configuration\AtoN Configuration\obj\Debug\AtoN Configuration.csproj.GenerateResource.cache
+E:\Loi\AtoN Configuration\AtoN Configuration\obj\Debug\AtoN Configuration.csproj.CoreCompileInputs.cache
+E:\Loi\AtoN Configuration\AtoN Configuration\obj\Debug\AtoN Configuration.exe
+E:\Loi\AtoN Configuration\AtoN Configuration\obj\Debug\AtoN Configuration.pdb
+E:\Loi\AtoN Configuration\AtoN Configuration\obj\Debug\AtoN_Configuration.AtoN_config.resources
+E:\Loi\AtoN Configuration\AtoN Configuration\obj\Debug\AtoN_Configuration.Main.resources
